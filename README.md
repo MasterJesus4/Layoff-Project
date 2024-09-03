@@ -152,6 +152,17 @@ From  Company_Year_Rank
 
 WHERE Ranking <=5
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+10. Checking For Maximum Total_laid_off And MAximum Percentage _laid_off
+
+Select  MAX(total_laid_off) AS Total_laid_off, MAX(percentage_laid_off) AS Percentage_laid_off
+
+From [Portfolio Project].dbo.layoff_standing
+
+WHERE percentage_laid_off = 1
+
+
 
 
 
